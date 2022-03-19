@@ -8,7 +8,7 @@ let handler = async (m, { conn, usedPrefix: _p, args, command, text }) => {
  // BAGIAN TAG
  let tag = `@${m.sender.split('@')[0]}`
  m, { contextInfo: { mentionedJid: conn.parseMention(tag) }}
- let ow = `@${'19592142111'.split('@')[0]}`
+ let ow = `@${'6285888083107'.split('@')[0]}`
  m, { contextInfo: { mentionedJid: conn.parseMention(tag) }}
  let pat1 = `@${'6283829756773'.split('@')[0]}`
  m, { contextInfo: { mentionedJid: conn.parseMention(tag) }}
@@ -330,7 +330,7 @@ _${ohari} Hari ${ojam} Jam ${onet} Menit ${detek} Detik_
 
 Note: Jika ada Fitur yg Error Lapor ke owner
 `.trim(),
-          "description": `\n*© ${conn.getName(conn.user.jid)} || 2021*`,
+          "description": `\n*© ${conn.getName(conn.user.jid)} || 2022*`,
           "buttonText": "Klik Disini",
           "listType": "SINGLE_SELECT",
           "sections": [
